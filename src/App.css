@@ -1,0 +1,294 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(../public/fonts/Roboto-Regular.ttf) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Georgia", sans-serif;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}
+p {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia;
+  font-weight: 700;
+}
+h1 {
+  font-size: 48px;
+  line-height: 49px;
+  letter-spacing: 0px;
+  
+}
+h2 {
+
+  font-size: 34px;
+  line-height: 39px;
+  letter-spacing: 0.1px;
+  
+}
+h3 {
+  line-height: 1.4;
+}
+.bg {
+  background: #09357BE5;
+  color: #fff;
+}
+.p1 {
+  padding: 1rem;
+}
+.pe1 {
+  padding-right: 1rem;
+}
+.py1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.col50 {
+  min-width: 50%;
+  width: 50%;
+  box-sizing: border-box;
+}
+.post .title {
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  letter-spacing: 0.06300000101327896px;
+  
+}
+.post-lg .title {
+  font-size: 24px;
+  line-height: 31px;
+}
+.bb {
+  border-bottom: 3px solid;
+}
+
+.bcRed, .bc1{
+  border-color: #d32f2f;
+}
+.bcYellow, .bc2 {
+  border-color: #ffc107;
+}
+.bcBlue, .bc3 {
+  border-color: #2196f3;
+}
+.bcGreen, .bc4 {
+  border-color: #388e3c;
+}
+.positionRelative {
+  position: relative;
+}
+.positionAbsolute {
+  position: absolute;
+}
+.w100 {
+  width: 100%;
+}
+.post {
+ box-shadow:   0 7px 7px 0 rgba(0,0,0,0.1), 0 5px 21px 0 rgba(0,0,0,0.1) !important
+}
+.post img {
+  width: 100%;
+}
+.content {
+  bottom: 0;
+  left: 0;
+  min-height: 8rem;
+}
+header {
+  min-height: 126px;
+}
+.box {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.flexWrap {
+  flex-wrap: wrap;
+}
+.logo {
+  align-items: center;
+}
+.justifySpaceBetween {
+  justify-content: space-between;
+}
+.alignSelfEnd {
+  align-self: flex-end;
+}
+.search {
+  transition: all 0.5s;
+}
+.search > * {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #fff;
+  height: 44px;
+}
+.search input {
+  width: 0;
+  padding: 0;
+  transition: all 1s ease-in-out;
+}
+.search button {
+  width: 90px;
+}
+.bg input {
+  color: #fff;
+}
+input {
+  padding: 10px 15px;
+}
+.search.active input {
+  width: auto;
+  padding: 10px 15px;
+}
+.search.active {
+  background-color: #2953a3;
+}
+.date {
+  text-transform: uppercase;
+}
+.textMuted {
+  color: #000000de;
+  font-family: "Roboto", serif;
+  font-size: 12px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #fff;
+  opacity: 0.5;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+  opacity: 0.5;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+  opacity: 0.5;
+}
+.sort {
+  padding: 10px 5px;
+  min-width: 190px;
+  border: none;
+  border-bottom: 1px solid;
+  outline: none;
+}
+.dNone {
+  display: none;
+}
+.col99250,
+.col64033,
+.col99260,
+.col99240 {
+  width: 100%;
+  box-sizing: border-box;
+}
+.pb {
+  padding-bottom: 1.3rem;
+}
+.mb {
+  margin-bottom: 0.9rem;
+}
+.hide {
+  visibility: hidden;
+}
+.mh50 {
+  min-height: 50px;
+}
+.mw100 {
+  min-width: 100%;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media screen and (min-width: 992px) {
+  .sports .content,
+  .three .content {
+    position: absolute;
+  }
+}
+@media screen and (min-width: 992px) {
+  .pe992 {
+    padding-right: 1.3rem;
+  }
+  .col99250 {
+    width: 50%;
+  }
+  .col99260 {
+    width: 60%;
+  }
+  .col99240 {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .pe640 {
+    padding-right: 1.3rem;
+  }
+  .pe320 {
+    padding-right: 0.65rem;
+  }
+  .pl320 {
+    padding-left: 0.65rem;
+  }
+  .col64033 {
+    width: 32.2%;
+    margin-right: 1.7%;
+  }
+  .flex .col64033:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  article .hide {
+    display: none;
+  }
+}
+@media screen and (max-width: 639px) {
+  .colSm100 {
+    width: 100%;
+  }
+  .positionSmAbsolute {
+    position: absolute;
+  }
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+}
