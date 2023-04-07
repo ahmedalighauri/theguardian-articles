@@ -8,9 +8,9 @@
 
 ## Setting up
 
-After cloning the project. To setup locally follow these instructions:
+After cloning the project, setup locally using the following instructions:
 
-1. Create new file called `.env` on root of the project. Copy everything in `.env.example` to `.env`.
+1. Create a new file called `.env` at the root of the project. Copy content inside `.env.example` and paste it in `.env`.
 
 2. Run this command to install all dependencies.
 
